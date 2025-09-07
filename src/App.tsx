@@ -15,12 +15,12 @@ export default function App()
       <div>
         <HashRouter>
       
-          <Routes>
+
             <Route path='/' element={<Home/>}></Route>
             <Route path='/create' element={<Createpostpage/>}></Route>
             <Route path='/community' element={<Communitypage/>}></Route>
             <Route path="/signin" element={<Signin/>}></Route>
-          </Routes>
+      
         </HashRouter>
     
       </div>
