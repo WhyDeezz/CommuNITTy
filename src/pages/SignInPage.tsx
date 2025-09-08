@@ -31,7 +31,7 @@ export default function SignIn() {
 
 
     
-    window.location.href = "/"
+    window.location.href = "/CommuNITTy/#/"
   }
 
   return (

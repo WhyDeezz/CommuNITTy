@@ -18,7 +18,7 @@ export default function App()
             <Route path='/create' element={<Createpostpage/>}></Route>
             <Route path='/community' element={<Communitypage/>}></Route>
             <Route path="/signin" element={<Signin/>}></Route>
-            <Route path="*" element={<Navigate to="/dashboard" />} />
+            <Route path="*" element={<Navigate to="/" />} />
       </Routes>
   
       </div>
