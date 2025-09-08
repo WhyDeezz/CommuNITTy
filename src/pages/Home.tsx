@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home()
 {
     return(
-    <>
+  
     <div className='parentoftype'>
         <TypeAnimation
       sequence={[
@@ -24,14 +24,9 @@ export default function Home()
     
       repeat={Infinity}
     />
-
+      <img className='cock' src='./clock.png'></img>
     </div>
-    <div>
-      <img className='cock' src='/cocktower.png'></img>
-    </div>
-
-    </>
- 
+  
 
 
 

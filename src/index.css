@@ -121,7 +121,7 @@ button
 }
 .cock {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left:20%;
   z-index: -1;
   opacity: 50%;
