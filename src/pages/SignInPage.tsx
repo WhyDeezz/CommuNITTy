@@ -31,7 +31,7 @@ export default function SignIn() {
 
 
     
-    window.location.href = "/CommuNITTy/#/"
+    window.location.href = "https://whydeezz.github.io/CommuNITTy/#/"
   }
 
   return (

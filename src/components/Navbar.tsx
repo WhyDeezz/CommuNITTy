@@ -22,7 +22,7 @@ export default function Navbar() {
 
     const handleLogout = async () => {
       await supabase.auth.signOut()
-      window.location.href = "/CommuNITTy/#/"
+      window.location.href = "https://whydeezz.github.io/CommuNITTy/#/"
   }
  
 
