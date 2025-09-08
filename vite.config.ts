@@ -5,6 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react() , tailwindcss()],
-  base:'/CommuNITTy/'
+  base:'/CommuNITTy/',
+  build: {
+    sourcemap: false, // disable source maps (prevents eval in production)
+  },
   
 })
