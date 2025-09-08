@@ -43,7 +43,7 @@ export default function SignIn() {
   }}>
           CR Login
     </h1>
-    <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , position:'absolute',left:'32.5%' , borderRadius:'40px',
+    <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , marginLeft:'58vh' , borderRadius:'40px',
     fontFamily: "Atkinson Hyperlegible, sans-serif",
     fontWeight: 700,
     fontStyle: "normal"}}>
