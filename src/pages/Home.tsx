@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import { InstagramEmbed } from 'react-social-media-embed';
+
 
 export default function Home()
 {
