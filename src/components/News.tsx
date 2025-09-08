@@ -19,7 +19,9 @@ export default function News(props: news) {
   return (
     <div  id = 'vdiya' className="p-4 rounded-2xl shadow-lg max-w-lg  mt-9 ml-30 mr-30 " style={{ backgroundColor:'#202020' }}>
       <div className=" mt-2">
-        <h1 className="font-bold" style={{ color:'#8354f6'}}>{props.dept}-{props.section}</h1>
+        <h1 className="font-bold" style={{ color:'#8354f6',    fontFamily: "Major Mono Display, monospace",
+    fontWeight: 400,
+    fontStyle: "normal"}}>{props.dept}-{props.section}</h1>
       </div>
       <div className="mt-1 ">
         <h1 className=" text-gray-300" style={{fontSize:"20px"}}>{props.title}</h1>

@@ -32,8 +32,16 @@ export default function Communitypage()
     console.log(profiles)
     return(
     <>
-    <h2 className="text-3xl font-bold text-center absolute top-4 left-1/2 -translate-x-1/2 mt-2 ml-10 mr-10 text-gray-300">Announcements</h2>
-    <div className="grid grid-cols-2 gap-1 p-3 ">
+    <h2 className="text-3xl font-bold text-center absolute top-4 left-1/2 -translate-x-1/2 mt-2 ml-10 mr-10 text-gray-300"   style={{
+    fontFamily: "Atkinson Hyperlegible, sans-serif",
+    fontWeight: 700,
+    fontStyle: "normal"
+  }}>Announcements</h2>
+    <div className="grid grid-cols-2 gap-1 p-3 "   style={{
+    fontFamily: "Atkinson Hyperlegible, sans-serif",
+    fontWeight: 400,
+    fontStyle: "normal"
+  }}>
       {profiles.map((p, i) => (
     
             <News

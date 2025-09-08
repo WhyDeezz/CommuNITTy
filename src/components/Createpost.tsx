@@ -78,7 +78,11 @@ export default function Creatpost()
     return(
     <form
     onSubmit={handlesubmit}
-    className="max-w-lg mx-auto bg-transparent p-6 rounded-2xl shadow-md space-y-4 flex flex-col"
+    className="max-w-lg mx-auto bg-transparent p-6 rounded-2xl shadow-md space-y-4 flex flex-col"  style={{
+    fontFamily: "Atkinson Hyperlegible, sans-serif",
+    fontWeight: 400,
+    fontStyle: "normal"
+  }}
     >
     <div>
         <label htmlFor="title" className="block text-sm font-medium text-white">
@@ -147,7 +151,7 @@ export default function Creatpost()
 
     <button
         type="submit"
-        className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition"
+        className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition"
     >
         Create Post
     </button>

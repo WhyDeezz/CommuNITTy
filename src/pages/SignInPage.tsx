@@ -36,10 +36,17 @@ export default function SignIn() {
 
   return (
     <>
-    <h1 className="mb-6 mt-5 text-center text-4xl font-bold text-white">
+    <h1 className="mb-6 mt-5 text-center text-4xl font-bold text-white"   style={{
+    fontFamily: "Atkinson Hyperlegible, sans-serif",
+    fontWeight: 700,
+    fontStyle: "normal"
+  }}>
           CR Login
     </h1>
-    <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , position:'absolute',left:'32.5%' , borderRadius:'40px'}}>
+    <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , position:'absolute',left:'32.5%' , borderRadius:'40px',
+    fontFamily: "Atkinson Hyperlegible, sans-serif",
+    fontWeight: 700,
+    fontStyle: "normal"}}>
       <div className="w-full max-w-md rounded-2xl bg-transparent p-8 shadow-lg">
 
         <form onSubmit={handleSignIn} className="space-y-4  text-white">
