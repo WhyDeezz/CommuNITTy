@@ -2,22 +2,7 @@
 
 
 body {
-  background: radial-gradient(
-      circle at 30% 30%,
-      rgba(186, 128, 255, 0.4),  
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 70% 40%,
-      rgba(255, 128, 255, 0.3), 
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 50% 70%,
-      rgba(0, 128, 255, 0.25),   
-      transparent 70%
-    ),
-    linear-gradient(135deg, #0a0a16, #050510);
+  background: #191919;
 
   background-attachment: fixed; 
   background-repeat: no-repeat;
@@ -33,7 +18,7 @@ nav
   
  
  
-  height: 100px;
+  height: 80px;
   color: aliceblue;
 
 }
@@ -79,9 +64,10 @@ button
 
 .leftside>img
 {
-  width: 100px;
+  width: 300px;
   position: absolute;
-  top:13px
+  top:5px;
+  left:40px
 
 }
 
@@ -89,7 +75,22 @@ button
 {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top:9px;
+  right:40px
 }
+
+@media (hover: hover) {
+  
+  .rightside>*:hover {
+    color: #8354f6;
+  }
+
+
+
+}
+
+
 
 .leftside
 {
@@ -98,3 +99,30 @@ button
   
 }
 
+
+.elfsight-app-6ef1d95f-365f-4f02-95b1-662c38373e81
+{
+  position:absolute;
+  width: 200px;
+}
+
+
+#news
+{
+  background-color: #202020;
+}
+
+
+.boxes
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+.cock {
+  position: absolute;
+  top: 0px;
+  left:20%;
+  z-index: -1;
+  opacity: 50%;
+}

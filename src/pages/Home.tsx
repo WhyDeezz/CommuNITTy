@@ -1,9 +1,10 @@
 import { TypeAnimation } from 'react-type-animation';
-
+import { InstagramEmbed } from 'react-social-media-embed';
 
 export default function Home()
 {
     return(
+    <>
     <div className='parentoftype'>
         <TypeAnimation
       sequence={[
@@ -23,7 +24,13 @@ export default function Home()
     
       repeat={Infinity}
     />
+
     </div>
+    <div>
+      <img className='cock' src='/cocktower.png'></img>
+    </div>
+
+    </>
  
 
 

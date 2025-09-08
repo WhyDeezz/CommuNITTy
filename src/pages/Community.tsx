@@ -8,6 +8,7 @@ type news = {
   context:string;
   branch:string;
   section:string;
+  created_at:string;
 }
 
 
@@ -31,13 +32,14 @@ export default function Communitypage()
     console.log(profiles)
     return(
     <>
-    <h2 className="text-3xl font-bold text-center absolute top-7 left-1/2 -translate-x-1/2 mt-2  text-gray-300">Announcements</h2>
-    <div className="grid grid-cols-4 gap-6 p-6 ">
+    <h2 className="text-3xl font-bold text-center absolute top-4 left-1/2 -translate-x-1/2 mt-2 ml-10 mr-10 text-gray-300">Announcements</h2>
+    <div className="grid grid-cols-2 gap-1 p-3 ">
       {profiles.map((p, i) => (
     
             <News
             key={i}
-            img="./cat.png"
+            date={p.created_at}
+          
             title={p.title}
             text={p.context}
             section={p.section}

@@ -30,7 +30,7 @@ export default function Navbar() {
   
 
   return (
-    <nav style={{ padding: "20px" }}>
+    <nav style={{ padding: "20px" , backgroundColor:'#202020'}}>
         <div className="rightside">
           <Link to={'/'}>
             <button>Home</button>
@@ -56,7 +56,7 @@ export default function Navbar() {
           )}
         </div>
         <div className="leftside">
-            <img src='./nittlogo2.png'></img>
+            <img src='./communitylogo.png'></img>
 
         </div>
     </nav>

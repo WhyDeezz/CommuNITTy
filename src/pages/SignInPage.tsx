@@ -35,18 +35,20 @@ export default function SignIn() {
   }
 
   return (
-    <div className="flex  items-center justify-center bg-transparent">
+    <>
+    <h1 className="mb-6 mt-5 text-center text-4xl font-bold text-white">
+          CR Login
+    </h1>
+    <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , position:'absolute',left:'32.5%' , borderRadius:'40px'}}>
       <div className="w-full max-w-md rounded-2xl bg-transparent p-8 shadow-lg">
-        <h1 className="mb-6 text-center text-2xl font-bold text-white">
-          CR Sign In
-        </h1>
+
         <form onSubmit={handleSignIn} className="space-y-4  text-white">
           <input
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full rounded-lg border  text-white border-gray-300 p-2 focus:border-blue-500 focus:ring"
+            className="w-full rounded-xl border  text-white border-gray-300 p-2 focus:border-blue-500 focus:ring"
             required
           />
 
@@ -55,7 +57,7 @@ export default function SignIn() {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full rounded-lg border text-white border-gray-300 p-2 focus:border-blue-500 focus:ring"
+            className="w-full rounded-xl border text-white border-gray-300 p-2 focus:border-blue-500 focus:ring"
             required
           />
 
@@ -64,12 +66,13 @@ export default function SignIn() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-lg bg-blue-600 py-2 text-white hover:bg-blue-700 disabled:opacity-50"
+            className="w-full rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 h-16 py-2 text-white disabled:opacity-50"
           >
             {loading ? "Signing in..." : "Sign In"}
           </button>
         </form>
       </div>
     </div>
+  </>
   )
 }
