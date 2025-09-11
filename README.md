@@ -3,6 +3,9 @@
 Tired of juggling 100 apps just to miss an important announcement?  
 **CommuNITTY** is a centralized college announcement web app where students can **read updates without logging in**, and only **Class Representatives (CRs)** can securely post and manage announcements.
 
+
+🚀 [Live Demo](https://communitty.netlify.app/#/)
+
 ---
 
 ## Features
