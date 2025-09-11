@@ -57,7 +57,7 @@ export default function Home() {
         <img className="cock" src="./clock.png" />
       </div>
 
-      <h2
+      {(window.innerWidth > 600 )&&<h2
         style={{
           color: 'white',
           fontSize: '30px',
@@ -67,11 +67,11 @@ export default function Home() {
         }}
       >
         Latest Announcements
-      </h2>
+      </h2>}
 
    
 
-      <div
+      {(window.innerWidth > 600 )&& <div
         className="grid grid-cols-2 gap-1 p-3"
         style={{
           fontFamily: 'Atkinson Hyperlegible, sans-serif',
@@ -92,7 +92,7 @@ export default function Home() {
             onDelete={fetchTasks}
           />
         ))}
-      </div>
+      </div>}
     </>
   );
 }
