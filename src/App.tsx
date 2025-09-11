@@ -1,4 +1,4 @@
-import {HashRouter, Route,Routes,Navigate } from "react-router"
+import {HashRouter, Route,Routes} from "react-router"
 import Home from './pages/Home'
 import Navbar from "./components/Navbar"
 import Createpostpage from "./pages/Createpost"
@@ -18,7 +18,7 @@ export default function App()
             <Route path='/create' element={<Createpostpage/>}></Route>
             <Route path='/community' element={<Communitypage/>}></Route>
             <Route path="/signin" element={<Signin/>}></Route>
-            <Route path="*" element={<Navigate to="/" />} />
+         
       </Routes>
   
       </div>

@@ -31,7 +31,7 @@ export default function SignIn() {
 
 
     
-    window.location.href = "https://whydeezz.github.io/CommuNITTy/#/"
+    window.location.href = "/"
   }
 
   return (
@@ -46,7 +46,7 @@ export default function SignIn() {
     <div className="flex  items-center justify-center " style={{backgroundColor:'#202020', width:'500px' , marginTop:'20px' , marginLeft:'58vh' , borderRadius:'40px',
     fontFamily: "Atkinson Hyperlegible, sans-serif",
     fontWeight: 700,
-    fontStyle: "normal"}}>
+    fontStyle: "normal"}} id='forms'>
       <div className="w-full max-w-md rounded-2xl bg-transparent p-8 shadow-lg">
 
         <form onSubmit={handleSignIn} className="space-y-4  text-white">

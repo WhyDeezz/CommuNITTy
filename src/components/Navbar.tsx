@@ -1,9 +1,11 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react"
 import { superbase as supabase } from "../superbase-client"
+import Dropdown from "./Dropdown";
 
 
 export default function Navbar() {
+
     const [user, setUser] = useState<any>(null)
 
     useEffect(() => {
@@ -22,7 +24,7 @@ export default function Navbar() {
 
     const handleLogout = async () => {
       await supabase.auth.signOut()
-      window.location.href = "https://whydeezz.github.io/CommuNITTy/#/"
+      window.location.href = "/"
   }
  
 
@@ -30,7 +32,8 @@ export default function Navbar() {
   
 
   return (
-    <nav style={{ padding: "20px" , backgroundColor:'#202020'}}>
+    <>
+    {(window.innerWidth >600 )&&<nav style={{ padding: "20px" , backgroundColor:'#202020'}}>
         <div className="rightside">
           <Link to={'/'}>
             <button>Home</button>
@@ -59,6 +62,18 @@ export default function Navbar() {
             <img src='./communitylogo.png'></img>
 
         </div>
-    </nav>
+    </nav>}
+    {
+      (window.innerWidth < 600 )&&
+      <nav style = {{ backgroundColor:'#202020'}}>
+    
+        <Dropdown/>
+        <div className="leftside">
+            <img src='./communitylogo.png'></img>
+        </div>
+      </nav>
+      
+    }
+    </>
   );
 }
