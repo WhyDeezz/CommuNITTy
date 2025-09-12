@@ -72,11 +72,12 @@ export default function Home() {
    
 
       {(window.innerWidth > 600 )&& <div
-        className="grid grid-cols-2 gap-1 p-3"
+        className="grid grid-cols-2 gap-1 p-3 "
         style={{
           fontFamily: 'Atkinson Hyperlegible, sans-serif',
           fontWeight: 400,
           fontStyle: 'normal',
+      
         }}
         id="news"
       >
