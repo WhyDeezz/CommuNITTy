@@ -56,18 +56,21 @@ export default function Home() {
         />
         <img className="cock" src="./clock.png" />
       </div>
-
-      {(window.innerWidth > 600 )&&<h2
-        style={{
-          color: 'white',
-          fontSize: '30px',
-          marginTop: '90px',
-          marginLeft: '40px',
-          fontFamily: 'Atkinson Hyperlegible',
-        }}
-      >
-        Latest Announcements
-      </h2>}
+      
+      {(window.innerWidth > 600 )&&
+      <div style={{display:'flex',justifyContent:'center'}}>
+        <h2
+          style={{
+            color: 'white',
+            fontSize: '30px',
+            marginTop: '90px',
+            marginLeft: '40px',
+            fontFamily: 'Atkinson Hyperlegible',
+          }}
+        >
+          Latest Announcements
+        </h2>
+      </div>}
 
    
 
