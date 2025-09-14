@@ -21,8 +21,6 @@ Tired of juggling 100 apps just to miss an important announcement?
 ## Tech Stack
 
 - **Frontend**: React 19, TailwindCSS
-- **Routing**: React Router (HashRouter for GitHub Pages)
-- **State Management**: TanStack React Query
 - **Backend**: Supabase for authentication and database
 
 
