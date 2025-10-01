@@ -18,8 +18,8 @@
 
 ## 🚨 The Problem
 
-In most colleges, announcements are scattered across **WhatsApp groups, emails, and notice boards**, making it very easy to **miss important updates**.
-Students feel overwhelmed juggling too many apps, while Class Representatives (CRs) struggle to share information quickly and effectively.
+College announcements are scattered across **WhatsApp groups, emails, and notice boards**, which makes it easy for students to **miss important updates**.
+Meanwhile, Class Representatives (CRs) struggle to share information across multiple platforms.
 
 ---
 
@@ -27,38 +27,59 @@ Students feel overwhelmed juggling too many apps, while Class Representatives (C
 
 **CommuNITTy** is a **centralized college announcement platform** designed to simplify communication.
 
-- 📢 **For Students** → Read announcements instantly **without logging in**.
-- 🛡️ **For CRs** → Only authorized CRs can post and manage announcements.
-- 🎯 **Goal** → Reliable, simple, and stress-free college communication.
+- 📢 **Students** → Instantly read announcements **without logging in**.
+- 🛡️ **CRs** → Securely post and manage announcements.
+- 🎯 **Goal** → One reliable, mobile-friendly hub for all communications.
 
 ---
 
 ## ✨ Features
 
-- 📝 **Easy Announcements** – CRs can post updates quickly and securely.
-- 👀 **Read Without Login** – Students stay informed instantly.
-- 🔒 **Secure CR Access** – Authentication ensures only CRs can post.
-- 📱 **Responsive Design** – Works on desktop, tablet, and mobile.
+- 📝 **Quick Announcements** – CRs can post updates in seconds.
+- 👀 **No Login for Students** – Announcements are public and instantly available.
+- 🔒 **Secure CR Access** – Only authorized CRs can create posts.
+- 📱 **Optimized for Phone Users** – Mobile-first design ensures seamless use on small screens.
+- 💻 **Responsive UI** – Works smoothly across desktop, tablet, and mobile.
 - ⚡ **Fast & Lightweight** – Powered by React + Vite.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React 19, TailwindCSS
-- **Backend**: Supabase (authentication + database)
-- **Deployment**: Netlify
+### Frontend
+- **React 19** → Component-based user interface.
+- **React Router (HashRouter)** → Client-side routing for multiple pages (`/`, `/community`, `/create`, `/signin`).:contentReference[oaicite:0]{index=0}
+- **TailwindCSS** → Utility-first framework for styling.
+- **Custom CSS** → Responsive design, mobile optimizations, and theme styling.:contentReference[oaicite:1]{index=1}
+- **Atkinson Hyperlegible Font** → Accessibility-focused typography.
+
+### Backend & Services
+- **Supabase** → Authentication and database for announcements.
+- **Authorization Logic** → Restricts posting rights to verified CRs.
+
+### Deployment
+- **Vite** → Lightning-fast dev server and optimized builds.
+- **Netlify** → Hosting and CI/CD.
 
 ---
 
+## 🎨 Design Details
+
+- **Dark Theme** (`#191919`) for a clean and modern look.
+- **Mobile-first approach** – all layouts adapt for phones:
+  - Announcements stack vertically.
+  - Navbar auto-adjusts for small screens.
+  - Images and text scale down with media queries.
+- **Hover effects** and **shadows** for a modern UI feel.
+
+---
 
 ## 🙏 Acknowledgments
 
-- This project was created as my **Final Project for Harvard’s CS50**.
-- Huge thanks to the **CS50 team** for designing such a life-changing course.
-- And to my peers and community for the motivation to keep learning.
+- Built as my **Final Project for Harvard’s CS50**.
+- Thanks to the **CS50 staff** and open-source community for tools and guidance.
 
 ---
 
 ### 🔖 Tags
-`#CS50` `#FinalProject` `#CommuNITTy` `#Community` `#CollegeLife`
+`#CS50` `#FinalProject` `#CommuNITTy` `#React` `#Supabase` `#TailwindCSS` `#MobileFirst`
