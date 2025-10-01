@@ -1,4 +1,6 @@
 # CommuNITTY 📢
+#### Video Demo:  https://youtu.be/yaCzskMeAoQ
+#### Description:
 <img width="1442" height="823" alt="Screenshot 2025-09-28 at 10 03 02 AM" src="https://github.com/user-attachments/assets/980fc25b-dba3-41ae-acac-d577f83ba7c6" />
 <img width="1467" height="834" alt="Screenshot 2025-09-28 at 10 03 33 AM" src="https://github.com/user-attachments/assets/698b15b3-14be-4764-b4e3-7a70bb418faf" />
 
