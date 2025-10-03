@@ -48,9 +48,9 @@ Meanwhile, Class Representatives (CRs) struggle to share information across mult
 
 ### Frontend
 - **React 19** → Component-based user interface.
-- **React Router (HashRouter)** → Client-side routing for multiple pages (`/`, `/community`, `/create`, `/signin`).:contentReference[oaicite:0]{index=0}
+- **React Router (HashRouter)** → Client-side routing for multiple pages (`/`, `/community`, `/create`, `/signin`).
 - **TailwindCSS** → Utility-first framework for styling.
-- **Custom CSS** → Responsive design, mobile optimizations, and theme styling.:contentReference[oaicite:1]{index=1}
+- **Custom CSS** → Responsive design, mobile optimizations, and theme styling.
 - **Atkinson Hyperlegible Font** → Accessibility-focused typography.
 
 ### Backend & Services
@@ -74,12 +74,4 @@ Meanwhile, Class Representatives (CRs) struggle to share information across mult
 
 ---
 
-## 🙏 Acknowledgments
 
-- Built as my **Final Project for Harvard’s CS50**.
-- Thanks to the **CS50 staff** and open-source community for tools and guidance.
-
----
-
-### 🔖 Tags
-`#CS50` `#FinalProject` `#CommuNITTy` `#React` `#Supabase` `#TailwindCSS` `#MobileFirst`
